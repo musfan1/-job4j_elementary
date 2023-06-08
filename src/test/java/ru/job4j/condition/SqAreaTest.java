@@ -16,10 +16,10 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenP7K3square2dot296875() {
+    public void whenP7K3square2dot29() {
         int p = 7;
         int k = 3;
-        double expected = 2.296875;
+        double expected = 2.29;
         double out = SqArea.square(p, k);
         double eps = 0.01;
         Assert.assertEquals(expected, out, eps);
