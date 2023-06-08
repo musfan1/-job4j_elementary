@@ -18,24 +18,24 @@ public class PointTest {
     }
 
     @Test
-    public void whenX1Y2X3Y4Then2dot828427() {
+    public void whenX1Y2X3Y4Then2dot83() {
         int x1 = 1;
         int y1 = 2;
         int x2 = 3;
         int y2 = 4;
-        double expected = 2.828_427;
+        double expected = 2.83;
         double out = Point.distance(x1, y1, x2, y2);
         double eps = 0.01;
         Assert.assertEquals(expected, out, eps);
     }
 
     @Test
-    public void whenX5Y6X17Y18Then16dot970563() {
+    public void whenX5Y6X17Y18Then16dot97() {
         int x1 = 5;
         int y1 = 6;
         int x2 = 17;
         int y2 = 18;
-        double expected = 16.970_563;
+        double expected = 16.97;
         double out = Point.distance(x1, y1, x2, y2);
         double eps = 0.01;
         Assert.assertEquals(expected, out, eps);
