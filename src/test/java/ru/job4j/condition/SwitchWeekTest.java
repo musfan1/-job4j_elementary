@@ -9,7 +9,7 @@ class SwitchWeekTest {
     void when0() {
         int day = 0;
         String result = SwitchWeek.nameOfDay(day);
-        String expected = "Ошибка";
+        String expected = "РћС€РёР±РєР°";
         assertThat(result).isEqualTo(expected);
     }
 
@@ -17,7 +17,7 @@ class SwitchWeekTest {
     void when1() {
         int day = 1;
         String result = SwitchWeek.nameOfDay(day);
-        String expected = "Понедельник";
+        String expected = "РџРѕРЅРµРґРµР»СЊРЅРёРє";
         assertThat(result).isEqualTo(expected);
     }
 
@@ -25,7 +25,7 @@ class SwitchWeekTest {
     void when2() {
         int day = 2;
         String result = SwitchWeek.nameOfDay(day);
-        String expected = "Вторник";
+        String expected = "Р’С‚РѕСЂРЅРёРє";
         assertThat(result).isEqualTo(expected);
     }
 
@@ -33,7 +33,7 @@ class SwitchWeekTest {
     void when3() {
         int day = 3;
         String result = SwitchWeek.nameOfDay(day);
-        String expected = "Среда";
+        String expected = "РЎСЂРµРґР°";
         assertThat(result).isEqualTo(expected);
     }
 
@@ -41,7 +41,7 @@ class SwitchWeekTest {
     void when4() {
         int day = 4;
         String result = SwitchWeek.nameOfDay(day);
-        String expected = "Четверг";
+        String expected = "Р§РµС‚РІРµСЂРі";
         assertThat(result).isEqualTo(expected);
     }
 
@@ -49,7 +49,7 @@ class SwitchWeekTest {
     void when5() {
         int day = 5;
         String result = SwitchWeek.nameOfDay(day);
-        String expected = "Пятница";
+        String expected = "РџСЏС‚РЅРёС†Р°";
         assertThat(result).isEqualTo(expected);
     }
 
@@ -57,7 +57,7 @@ class SwitchWeekTest {
     void when6() {
         int day = 6;
         String result = SwitchWeek.nameOfDay(day);
-        String expected = "Суббота";
+        String expected = "РЎСѓР±Р±РѕС‚Р°";
         assertThat(result).isEqualTo(expected);
     }
 
@@ -65,7 +65,7 @@ class SwitchWeekTest {
     void when7() {
         int day = 7;
         String result = SwitchWeek.nameOfDay(day);
-        String expected = "Воскресенье";
+        String expected = "Р’РѕСЃРєСЂРµСЃРµРЅСЊРµ";
         assertThat(result).isEqualTo(expected);
     }
 
@@ -73,7 +73,7 @@ class SwitchWeekTest {
     void when8() {
         int day = 8;
         String result = SwitchWeek.nameOfDay(day);
-        String expected = "Ошибка";
+        String expected = "РћС€РёР±РєР°";
         assertThat(result).isEqualTo(expected);
     }
 }
