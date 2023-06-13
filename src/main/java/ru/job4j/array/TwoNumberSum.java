@@ -13,7 +13,7 @@ public class TwoNumberSum {
                 break;
             } else if (array[i] + array[j] < target) {
                 i++;
-            } else if (array[i] + array[j] > target) {
+            } else {
                 j--;
             }
         }
