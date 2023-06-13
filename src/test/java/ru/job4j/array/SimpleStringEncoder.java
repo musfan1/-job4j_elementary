@@ -6,11 +6,20 @@ public class SimpleStringEncoder {
         char symbol = input.charAt(0);
         int counter = 1;
         for (int i = 1; i < input.length(); i++) {
-            if (input.charAt(i) == symbol && i < input.length() - 1) {
+            if (input.charAt(i) == symbol) {
                 counter++;
             } else {
-                result = result + symbol + counter;
+                result += (char) symbol;
+                if (counter > 1) {
+                    result += Integer.toString(counter);
+                }
+                symbol = input.charAt(i);
+                counter = 1;
             }
+        }
+        result += (char) symbol;
+        if (counter > 1) {
+            result += Integer.toString(counter);
         }
         return result;
     }
